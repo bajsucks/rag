@@ -53,15 +53,15 @@ function rag.Ragdoll(Char: Model, NoCollide: boolean?)
 		humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp, false)
 	end
 	for _, motor: Motor6D in Char:GetDescendants() do
-		local p0 = motor.Part0
-		local p1 = motor.Part1
 		if
 			motor:IsA("Motor6D")
 			and not motor:HasTag("NoRagdoll")
 			and not motor:HasTag("_RagdollDisabled")
-			and p0
-			and p1
+			and motor.Part0
+			and motor.Part1
 		then
+			local p0 = motor.Part0
+			local p1 = motor.Part1
 			motor.Enabled = false
 			motor:AddTag("_RagdollDisabled")
 			local a0 = Instance.new("Attachment")
