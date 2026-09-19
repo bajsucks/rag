@@ -4,7 +4,7 @@ description = "Simple, no-dependency ragdoll module that works on all rig types"
 license = "Apache-2.0"
 authors = ["baj"]
 repository = "https://github.com/bajsucks/rag"
-version = "0.1.0"
+version = "0.1.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
