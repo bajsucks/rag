@@ -1,0 +1,6 @@
+{
+  "name": "rag",
+  "tree": {
+    "$path": "src"
+  }
+}
