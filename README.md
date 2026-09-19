@@ -1,7 +1,7 @@
 # rag
 Easy ragdoll module that works on all rig types
 
-add `bajsucks/rag@^0.1.0` to your wally.toml to install
+add `rag = bajsucks/rag@^0.1.0` to your wally.toml to install
 
 ## Usage
 `Rag.Ragdoll(Char)` - ragdoll
