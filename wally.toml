@@ -1,10 +1,10 @@
 [package]
 name = "bajsucks/rag"
 description = "Simple, no-dependency ragdoll module that works on all rig types"
-license = "Apache-2.0"
+license = "MIT"
 authors = ["baj"]
 repository = "https://github.com/bajsucks/rag"
-version = "0.1.1"
+version = "0.2.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
